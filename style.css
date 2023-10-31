@@ -6,6 +6,18 @@ body{
     font-size: 40px;
 }
 
+body{
+    margin: 40px;
+}
+.title{
+    text-align: center;
+}
+
+.recipe-list{
+    text-align: center;
+    list-style: none;
+}
+
 .title-recipe, .title-recipe-in{
     text-align: center;
 }
@@ -21,8 +33,10 @@ body{
     background-color: aqua;
 }
 .picture{
+    display: block;
     height: 300px;
     width: auto;
+    margin: auto;
 }
 
 .title-step li{
