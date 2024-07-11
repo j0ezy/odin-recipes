@@ -18,12 +18,16 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 48px;
     text-align: center;
-    color: chocolate;
+    color: #d2691e;
 }
+
 
 .image {
     height: auto;
     width: 400px;
+    display: block;
+    margin: auto;
+    border: 8px dotted #d2691e;
 }
 
 .title-section {
@@ -42,4 +46,23 @@
 
 .recipe-list-ordered{
     text-align: left;
+}
+
+.description-div{
+    display: inline-block;
+    width: 400px;
+    height: auto;
+    border: 1px solid black;
+}
+.ingredients {
+    display: inline-block;
+    width: 400px;
+    height: auto;
+    border: 1px solid black;
+}
+
+.steps, .title, .ingredients, .description-div{
+    margin: 24px 128px;
+    border: 8px dotted #d2691e;
+    padding: 8px 48px;
 }
